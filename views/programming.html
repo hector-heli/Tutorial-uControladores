@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Esquema electrónico </title>
+    <link type="image/png" sizes="96x96" rel="icon" href="./favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./main.css" />
+</head>
+
+<body>
+
+    <nav style="display: inline-flex;">
+        <a href="./enlisment.html"> Alistamiento del proyecto </a>
+        <a href="./schematic.html"> Dibujo de esquemático </a>
+        <a href="./programming.html"> Escritura del código </a>
+        <a href="./simulation.html"> Simulación del sistema </a>
+        <a href="./report.html"> Preparacion de informe y entrega </a>
+    </nav>
+
+    <h1> Tutorial simulación de un sistema microcontrolado</h1>
+    <br>
+    <p>
+        Este documento describe el proceso y las herramientas para el diseño y la simulación de un sistema con microcontroladores. Se usa como simulador el programa de diseño electrónico Proteus 8, el cual se supone ya instalado en este momento.
+    </p>
+    <p>
+        En esta sección vamos a configurar el software de simulación, descargando archivos necesarios para la simulación de nuestro proyecto:
+    </p> <br>
+    <hr>
+
+    <h2> Dibujo del esquema electrónico</h2>
+
+    <ol>
+
+        <li>
+            <h3>Importar macro de Arduino UNO</h3>
+            <ul>
+                <li>
+                    <p>En el menú haga click en la opción "File", a continuación haga click en la opción "Import Project Clip"</p>
+                    <img src="./img/import-project-clip.png" alt="Import Project Clip" width="600px">
+                </li>
+                <li>
+                    <p>Se abre la ventana del explorador posicionada en la carpeta "Snnipets" donde podemos ubicar dentro de la carpeta "Arduino" el archivo "Arduino Uno 328.pdsclip" y clickeamos en el botón "Abrir".</p>
+                    <img src="./img/seleccion-macro-arduino.png" alt="seleccion de Arduino UNO 328" width="600px">
+                </li>
+                <li>
+                    <p>Vamos a ver una macro asociada al cursor del mouse. De esta forma podemos ubicar la macro y finalmente hacemos click en el lugar del espacio de trabajo donde queremos ubicar el arduino. </p>
+                    <div style="display:flex; gap:5px">
+                        <img class='joint' src="./img/clip-cursor.png" alt="seleccion de Arduino UNO 328" height="230%">
+                        <img class='joint' src="./img/clip-posicionado.png" alt="ubicación de Arduino UNO 328" height="230px">
+
+                    </div>
+                    
+                </li>
+
+            </ul>
+
+        </li>
+        <li>
+            <h3>Selección de componentes </h3>
+            <ul>
+                <li>
+                    <p>Para seleccionar los componentes necesarios para el proyecto, es necesario abrir la libreria de componentes. Esto se hece mediante el botón 'P' o accionando la tecla 'P' en el teclado.</p>
+
+                    <img src="./img/abre-libreria.png" alt="pantalla de inicio" width="600px" />
+                </li>
+                <li>
+                    <p>Al abrirse la ventana de la libreria de componentes podemos selecccionar todos los elementos que hacen parte de nuestro circuito digitando en el campo de texto "Keywords" los nombres de los componentes. <br> Para seleccionar los componentes
+                        completos, puede ayudarse del recuadro ubicado a la izquierda de la imágen, teniendo en cuenta que el componente seleccionado muestre un módelo de simulación en la ventana 'Preview'. (Debe aparecer un texto diferente a "No Simulator
+                        Model", como aparece en el cuadro a la derecha de la imágen).</p>
+
+                    <img src="./img/libreria-componentes.png" alt="ventana de librería" width="600px" />
+                    <p>Al terminar, cierre la libreria presionando en el teclado la tecla "Esc", en la ventana de la libreria haciendo click en el botón "Aceptar" o en la "X" en la parte superior derecha de la ventana</p>
+                </li>
+            </ul>
+
+        </li>
+        <li>
+            <h3>Ubicación y conexión de los componentes </h3>
+            <ul>
+                <li>
+                    <p>Debe tener seleccionado el modo de componentes ("Component Mode") para la ubicación de los componentes en el espacio de trabajo. Damos click sobre el componente deseado de la lista de componentes. <br>
+                        Seguidamente damos click en cualquier lugar de nuestro espacio de trabajo. Una sombre de nuestro componente estará asociada al cursor del mouse, lo cual queremos aprovechar 
+                    </p>
+                    <div style="display:flex; gap:5px">
+                        <img class='joint' src="./img/ubicacion-componentes-1.png" alt="selección desde la lista de dispositivos" height="200px">
+                        <img class='joint' src="./img/ubicacion-componentes-2.png" alt="asosciaón al cursor" height="200px">
+                        <img class='joint' src="./img/ubicacion-componentes-3.png" alt="fijación en el espacio de trabajo" height="200px">
+                    </div>
+                    
+                </li>
+                <li>
+                    <p>Se abre la ventana del explorador posicionada en la carpeta "Snnipets" donde podemos ubicar dentro de la carpeta "Arduino" el archivo "Arduino Uno 328.pdsclip" y clickeamos en el botón "Abrir".</p>
+                    <img src="./img/conexion-1.png" alt="seleccion de Arduino UNO 328" width="600px">
+                </li>
+                <li>
+                    <p>Vamos a ver una macro asociada al cursor del mouse. De esta forma podemos ubicar la macro y finalmente hacemos click en el lugar del espacio de trabajo donde queremos ubicar el arduino. </p>
+                    <img class='joint' src="./img/clip-cursor.png" alt="seleccion de Arduino UNO 328" width="300px">
+                    <img class='joint' src="./img/clip-posicionado.png" alt="seleccion de Arduino UNO 328" width="300px">
+                </li>
+
+            </ul>
+
+        </li>
+
+    </ol>
+    <nav style="justify-content:center; display: inline-flex; ">
+        <button 
+            type="button"
+            style="justify-content:center; display: inline-flex;"
+        >
+            <a class="button" href="./enlisment.html" style="text-decoration: none;"> Volver </a>
+        </button>
+        <button 
+            type="button"
+        >
+            <a href="./programming.html" style="text-decoration: none;"> Siguiente </a>
+        </button>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js " integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN " crossorigin="anonymous "></script>
+</body>
+
+</html>

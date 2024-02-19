@@ -1,0 +1,90 @@
+:root{
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 1280px;
+
+}
+html {
+    font-size: 100%;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: block;
+    background: #333;
+    color: white;
+    width: 90%;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    text-decoration: underline;
+}
+h1,
+h2 {
+    text-align: center;
+}
+
+header {
+    font-family:Avenir, system-ui, sans-serif;
+    font-size: 1.5rem;
+    border-style: solid;
+    margin: 0%;
+    text-align: center;
+    background-color: #999999;
+}
+
+p {
+    text-align: justify;
+    margin: 10px 10px;
+}
+
+img {
+    margin: 15px auto;
+    width: 90%;
+    display: flex;
+    max-width: 100%; /* La imagen no excederá el ancho de su contenedor */
+    height: auto; /* La altura se ajustará automáticamente según el ancho */
+    margin-bottom: 20px; /* Espacio entre imágenes */
+
+}
+nav {
+    display: inline-flex;
+    justify-content: space-around;
+    overflow-x: auto;
+    width: 100%;
+}
+
+button{
+    margin: 0 3rem;
+    margin: 15px 1%;
+    padding: 5px 5px;
+    color: darkgrey;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: #333;
+    width: 250px;
+}
+
+a{ text-decoration: none;}
+
+
+li {margin-top: 25px;}
+
+.joint {
+    display: flex;
+    margin: auto;
+    height: auto;
+    gap: 5px;
+    width: auto;
+    overflow-x: scroll;
+}
+
+.container {
+    width: 80%;
+}
