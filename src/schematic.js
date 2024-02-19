@@ -79,11 +79,12 @@ export const schematic = `
 
                     <p>La selección de estas conexiones se hace dando click en el modo de herramientas "Terminals Mode", en el panel de terminales podemos elegir las respectivas conexiones.</p>
                     
-                    <img src="./img/motor-driver.png" alt="Motor Driver L298">
+                    <img src="./img/conectors.png" alt="Conectores Usados">
                 </li>
 
                 <li>
-                    <p>Repita el proceso de ubicación de componentes según la lista de ejemplo y realice las conexiones entre los diferentes componentes.</p>
+                    <p>   En ocasiones va a ser necesario nombrar los cables con el fin de asociarlo a un nodo específico. Dé click derecho sobre el nodo o cable que quiere nombrar, seleccione la opción "Place Wire Label" y en el campo de texto pertinente escriba el nombre del nodo al que quiere conectar ese cable. Si hoy otro nodo con el mismo nodo, está generando una conexión electríca entre ellos. </p>
+                    <img src="./img/etiquetado-cables.gif" alt="Etiquetado de cables">
                 </li>
             </ul>
         </li>
