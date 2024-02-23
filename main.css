@@ -71,10 +71,12 @@ button{
     width: 250px;
 }
 
+button:hover{
+    background-color: #999;
+    color: #333;
+}
+
 a{ text-decoration: none;}
-
-
-li {margin-top: 25px;}
 
 .joint {
     display: flex;

@@ -1,5 +1,6 @@
 import {enlistment} from './src/enlisment.js';
 import { schematic } from './src/schematic.js';
+import { programming } from './src/programming.js';
 
 let $btnEnlistment = document.getElementById('enlistment-btn');
 let $btnSchematic = document.getElementById('schematic-btn');
@@ -10,9 +11,9 @@ let $btnReports = document.getElementById('reports-btn');
 let $btnNext = document.getElementById('next-btn');
 let $btnPrev = document.getElementById('prev-btn');
 
-const projectStages = [enlistment, schematic, 'code', 'simulation', 'reports'];
+const projectStages = [enlistment, schematic, programming, 'simulation', 'reports'];
 
-let stage = 1;
+let stage = 2;
 
 
 $btnEnlistment.onclick = () => stage = 0;
