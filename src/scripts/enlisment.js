@@ -9,7 +9,7 @@ export const enlistment =
                 <li>
                     <h4> Plano guía</h4>
                     <p>La siguiente imagen muestra el resultado después de haber terminado el diagrama esquemático</p>
-                    <img src="./img/Entrenador_160.SVG" alt="entrenador" />
+                    <img src="./img/enlistmentImages/Entrenador_160.SVG" alt="entrenador" />
                 </li>
                 <li>
                     <h4> Guía de código </h4>
@@ -46,10 +46,10 @@ export const enlistment =
                     <ul>
                         <li>
                             Abra el simulador Proteus. El aspecto inicial se presenta a continuación
-                            <img src="./img/pantalla-inicio.png" alt="pantalla de inicio">
+                            <img src="./img/enlistmentImages/pantalla-inicio.png" alt="pantalla de inicio">
                         </li>
                         <li> Haga click sobre el botón New Project <br>
-                            <img src="./img/nuevo-proyecto.png" alt="iniciar creación de proyecto" width="600px">
+                            <img src="./img/enlistmentImages/nuevo-proyecto.png" alt="iniciar creación de proyecto" width="600px">
                         </li>
                         <li>
                             <p>
@@ -58,34 +58,34 @@ export const enlistment =
                                 De igual forma en el campo "Name" colocamos el nombre del archivo de simulación. Por último damos click en el botón "Next".
                             </p>
 
-                            <img src="./img/crea-proyecto.png" alt="crear proyecto" width="600px">
+                            <img src="./img/enlistmentImages/crea-proyecto.png" alt="crear proyecto" width="600px">
                         </li>
                         <li>
                             <p> Ahora aparece la ventana de selección de plantilla </p>
                             <p>Vamos a seleccionar la plantilla "SENA A2_Horizontal" y clickeamos en "Next"</p>
 
-                            <img src="./img/ventana-plantilla.png" alt="seleccion de plantilla 1" width="300px">
+                            <img src="./img/enlistmentImages/ventana-plantilla.png" alt="seleccion de plantilla 1" width="300px">
                         </li>
                         <li>
                             <p> No es el propósito de este tutorial llevar a cabo el desarrollo de un PCB. Por lo tanto en la ventana de Layout seleccionamos la opción "Do not create a PCB Layout". Como aparece en la imagen </p>
 
-                            <img src="./img/ventana-layout.png" alt="seleccion de pcb layout" width="300px">
+                            <img src="./img/enlistmentImages/ventana-layout.png" alt="seleccion de pcb layout" width="300px">
                         </li>
                         <li>
                             <p> En la ventana mostrada a continuación tenemos la opción para programar el firmware del proyecto directamente en Proteus. Para nuestro proyecto vamos a programar el arduino desde un editor de código externo, por tanto, elegimos
                                 la opción "No Firmware Project" y damos click en el botón "Next"</p>
 
-                            <img src="./img/ventana-firmware.png" alt="programación de firmware" width="300px">
+                            <img src="./img/enlistmentImages/ventana-firmware.png" alt="programación de firmware" width="300px">
                         </li>
                         <li>
                             <p> En esta ventana se resume la configuración del proyecto. Para nuestro caso, solo vamos a realizar el esquemático usando la plantilla importada, sin diseño PCB ni programación de firmware. Damos click en el botón "Finish".</p>
 
-                            <img src="./img/ventana-resumen.png" alt="resumen de configuración" width="300px">
+                            <img src="./img/enlistmentImages/ventana-resumen.png" alt="resumen de configuración" width="300px">
                         </li>
                         <li>
                             <p> La imágen muestra el aspecto inicial de nuestro espacio de trabajo. </p>
 
-                            <img src="./img/Espacio-trabajo-inicial.png" alt="workSpace inicial" width="300px">
+                            <img src="./img/enlistmentImages/Espacio-trabajo-inicial.png" alt="workSpace inicial" width="300px">
                         </li>
                     </ul>
 

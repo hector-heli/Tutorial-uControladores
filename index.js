@@ -1,6 +1,6 @@
-import {enlistment} from './src/enlisment.js';
-import { schematic } from './src/schematic.js';
-import { programming } from './src/programming.js';
+import { enlistment } from '/src/scripts/enlisment.js';
+import { schematic } from '/src/scripts/schematic.js';
+import { programming } from '/src/scripts/programming.js';
 
 let $btnEnlistment = document.getElementById('enlistment-btn');
 let $btnSchematic = document.getElementById('schematic-btn');
