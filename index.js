@@ -13,7 +13,7 @@ let $btnPrev = document.getElementById('prev-btn');
 
 const projectStages = [enlistment, schematic, programming, 'simulation', 'reports'];
 
-let stage = 2;
+let stage = 0;
 
 
 $btnEnlistment.onclick = () => stage = 0;
@@ -28,10 +28,14 @@ $btnNext.onclick = () =>
 $btnPrev.onclick = () => 
     stage>0? stage--: stage=0;
 
+const $nav = document.querySelector('.editor-options');  
+
 const updateStages = () => {
+    //stage === 2? $nav.setAttribute('visibility', 'visible'): $nav.setAttribute('visibility', 'hidden');
     const $article = document.getElementById("directives");
     $article.innerHTML = projectStages[stage];
-    console.log(stage);
+    console.log(getComputedStyle($nav).getPropertyValue("visibility"));
+
 }
 
 document.body.onclick = () => updateStages();
