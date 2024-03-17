@@ -22,21 +22,22 @@
         <p>
             Para la escritura del código se usa el IDE de Arduino preferiblemente la última versión disponible. Para este ejercicio se usa la versión 2.3.x.
         </p> 
-        <nav>
-            <button id="enlistment-btn" >Alistamiento</button>
-            <button id="schematic-btn" >Esquemático</button>
-            <button id="code-btn" >Código</button>
-            <button id="simulation-btn" >Simulación</button>
-            <button id="reports-btn" >Documentación</button>
-        </nav>  
-        <nav class="editor-options">
-            <button id="arduino1-btn" >Arduino 1</button>
-            <button id="arduino2-btn" >IDE 2</button>
-            <button id="cloud-btn" >on-line</button>
-            <button id="proteus-btn" >Proteus</button>
-            <button id="vscode-btn" >VSCode</button>
+        <nav class="select-stage">
+            <button id="enlistment-btn" value=0>Alistamiento</button>
+            <button id="schematic-btn" value=1>Esquemático</button>
+            <button id="code-btn" value=2>Código</button>
+            <button id="simulation-btn" value=3>Simulación</button>
+            <button id="reports-btn" value=4>Documentación</button>
         </nav>  
         <hr>
+        <nav class="editor-options">
+            <button id="arduino1-btn" value=0>Arduino 1</button>
+            <button id="arduino2-btn" value=1>IDE 2</button>
+            <button id="cloud-btn" value=2>on-line</button>
+            <button id="proteus-btn" value=3>Proteus</button>
+            <button id="vscode-btn" value=4>VSCode</button>
+        </nav>  
+
     </section>
     <article class="container" id="directives">
         

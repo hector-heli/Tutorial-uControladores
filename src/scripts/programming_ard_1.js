@@ -1,21 +1,7 @@
 
 export const programmingArd1 = `
-    <h2> Escritura del código en Arduino 1</h2>
-    <p> En esta seccion vamos a escribir el código para la placa seleccionada. En nuestro caso el Arduino Uno. Sin embargo este código puede ser usado en cualquier placa compatible con Arduino IDE.
-    </p>
-    <p>El código puede ser transcrito siguiendo el ejemplo dado en el documento que se puede descargar desde <a href="https://drive.google.com/file/d/165jPD5k-NHkLaUJM1zA09RgdVR4x-GTt/view?usp=classroom_web&authuser=2" target="blank">aquí</a>.
-    </p>
-    <p> La versión usada en este ejemplo es el Arduino 2.3.x pero no hay inconveniente con el editor de código o la versión de este.</p>
-    <p> En esta sección se van a explicar diferentes alternativas para la escritura del código, asaber:</p>
     <ol>
-        <li>Programación desde el Arduino IDE 1.8.19</li>
-        <li>Programación desde el Arduino IDE 2.x.x</li>
-        <li>Programación desde el Arduino Web Editor</li>
-        <li>Programación desde el VSM de Proteus</li>
-        <li>Programación desde Visual Studio Code</li>
-    </ol> 
-    <ol>
-        <li><h3>Programación desde el Arduino 1.8.19</h3></li>
+        <li id="option.init"><h3>Programación desde el Arduino 1.8.19</h3></li>
         <p> El Arduino IDE es un Entorno de Desarrollo Integrado, diseñado para la programación de placas que hacen parte del proyecto Arduino. Las instrucciones descritas aquí son para la versión 1.8.19 la cuál es la última versión soportada de Arduino versión 1. </p>
         <p> El Arduino puede ser descargado desde la pagina oficial <a href="https://www.arduino.cc/en/software">https://www.arduino.cc/en/software</a>. Al abrir el programa el IDE muestra el último programa trabajado. Si es la prinera vez que se abre el Arduino IDE después de su instalación se abrirá un sketch nuevo creado en una carpeta temporal. 
         </p>
@@ -58,18 +44,5 @@ export const programmingArd1 = `
                 <p> Después que todo esté escrito correctamente al dar click en el botón de verificar el aspecto de la salida debe ser como lo muestra en la imagen. Debe aparecer la palabra "Compilado". </p>
                 <img src="./img/programmingImages/compiled.png" alt="compilado" />
                 <p> Hasta el momento hemos corregido un tipod de errores llamado "error de sintaxis". En programación existen otros tipos de errores como son los lógicos y los errores de ejecución que són un poco más dificiles de detectar. </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 `; 

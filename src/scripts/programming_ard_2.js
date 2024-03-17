@@ -1,6 +1,6 @@
 
 export const programmingArd2 = `
-    <h2> Escritura del código en Arduino IDE 2 </h2>
+    <h2> Escritura del código en Arduino IDE 2.x.x </h2>
     <p> En esta seccion vamos a escribir el código para la placa seleccionada. En nuestro caso el Arduino Uno. Sin embargo este código puede ser usado en cualquier placa compatible con Arduino IDE.
     </p>
     <p>El código puede ser transcrito siguiendo el ejemplo dado en el documento que se puede descargar desde <a href="https://drive.google.com/file/d/165jPD5k-NHkLaUJM1zA09RgdVR4x-GTt/view?usp=classroom_web&authuser=2" target="blank">aquí</a>.
@@ -58,18 +58,5 @@ export const programmingArd2 = `
                 <p> Después que todo esté escrito correctamente al dar click en el botón de verificar el aspecto de la salida debe ser como lo muestra en la imagen. Debe aparecer la palabra "Compilado". </p>
                 <img src="./img/programmingImages/compiled.png" alt="compilado" />
                 <p> Hasta el momento hemos corregido un tipod de errores llamado "error de sintaxis". En programación existen otros tipos de errores como son los lógicos y los errores de ejecución que són un poco más dificiles de detectar. </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 `; 
