@@ -1,6 +1,6 @@
 
 export const schematic = `
-    <h2> Diagrama esquemático </h2>
+    <h2> Diagrama esquemático </h2><br>
     <p>
         El objetivo de esta sección es desarrollar el esquemático del sistema eléctrico de nuestro entenador. Usaremos un snippet incluido en los recursos de Proteus para representar el Arduino.
         Seguidamente traeremos otros componentes que hacen parte del circuito y posteriormente dibujaremos las conexiones entre ellos.
